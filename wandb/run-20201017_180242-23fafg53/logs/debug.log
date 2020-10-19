@@ -1,0 +1,48 @@
+2020-10-17 18:02:42,768 INFO    MainThread:23367 [wandb_init.py:_log_setup():292] Logging user logs to wandb/run-20201017_180242-23fafg53/logs/debug.log
+2020-10-17 18:02:42,768 INFO    MainThread:23367 [wandb_init.py:_log_setup():293] Logging internal logs to wandb/run-20201017_180242-23fafg53/logs/debug-internal.log
+2020-10-17 18:02:42,768 INFO    MainThread:23367 [wandb_setup.py:_flush():69] setting env: {}
+2020-10-17 18:02:42,768 INFO    MainThread:23367 [wandb_setup.py:_flush():69] setting user settings: {'email': 'shaban.mahmud@yandex.ru'}
+2020-10-17 18:02:42,768 INFO    MainThread:23367 [wandb_setup.py:_flush():69] multiprocessing start_methods=fork,spawn,forkserver
+2020-10-17 18:02:42,768 INFO    MainThread:23367 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f75d1dab850>
+2020-10-17 18:02:42,768 INFO    MainThread:23367 [wandb_run.py:finish():983] finishing run raccooncoder/asr-dlaudio/12ktn0ml
+2020-10-17 18:02:42,769 INFO    MainThread:23367 [wandb_init.py:_jupyter_teardown():224] cleaning up jupyter logic
+2020-10-17 18:02:42,769 INFO    MainThread:23367 [jupyter.py:save_history():200] not saving jupyter history
+2020-10-17 18:02:42,769 INFO    MainThread:23367 [wandb_run.py:_atexit_cleanup():1249] got exitcode: 0
+2020-10-17 18:02:42,769 INFO    MainThread:23367 [wandb_run.py:_restore():1221] restore
+2020-10-17 18:02:42,772 INFO    MainThread:23367 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "98c9d0f962f54cf2a00717ae4e5209c3"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 653
+      total_bytes: 653
+    }
+  }
+}
+
+2020-10-17 18:02:44,779 INFO    MainThread:23367 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "1b749a45aed145aa8904d3118bf86f38"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 3102
+      total_bytes: 3102
+    }
+  }
+}
+
+2020-10-17 18:02:45,854 INFO    MainThread:23367 [wandb_run.py:_show_files():1554] logging synced files
+2020-10-17 18:02:46,813 INFO    MainThread:23367 [wandb_run.py:_console_start():1276] atexit reg
+2020-10-17 18:02:46,814 INFO    MainThread:23367 [wandb_run.py:_redirect():1146] redirect: SettingsConsole.WRAP
+2020-10-17 18:02:46,814 INFO    MainThread:23367 [wandb_run.py:_redirect():1177] Wrapping output streams.
+2020-10-17 18:02:46,814 INFO    MainThread:23367 [wandb_run.py:_redirect():1193] Redirects installed.
+2020-10-17 19:43:24,977 INFO    MainThread:23367 [wandb_run.py:_atexit_cleanup():1249] got exitcode: 0
+2020-10-17 19:43:24,978 INFO    MainThread:23367 [wandb_run.py:_restore():1221] restore
+2020-10-17 19:43:24,979 INFO    MainThread:23367 [wandb_run.py:_restore():1221] restore

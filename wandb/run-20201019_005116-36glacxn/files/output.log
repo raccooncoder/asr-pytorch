@@ -1,0 +1,104 @@
+cuda:0
+/home/raccooncoder/.venv/pytorch/lib/python3.7/site-packages/ipykernel_launcher.py:6: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  
+Train Epoch: 0 [1920/11775 (16%)]	Loss: 5.399186
+Train Epoch: 0 [3840/11775 (33%)]	Loss: 2.778156
+Train Epoch: 0 [5760/11775 (49%)]	Loss: 2.732437
+Train Epoch: 0 [7680/11775 (65%)]	Loss: 2.725829
+Train Epoch: 0 [9600/11775 (82%)]	Loss: 2.725688
+Train Epoch: 0 [11520/11775 (98%)]	Loss: 2.720841
+
+Train Epoch: 1 [1920/11775 (16%)]	Loss: 2.717424
+Train Epoch: 1 [3840/11775 (33%)]	Loss: 2.709845
+Train Epoch: 1 [5760/11775 (49%)]	Loss: 2.706274
+Train Epoch: 1 [7680/11775 (65%)]	Loss: 2.694719
+Train Epoch: 1 [9600/11775 (82%)]	Loss: 2.681381
+Train Epoch: 1 [11520/11775 (98%)]	Loss: 2.675584
+
+Train Epoch: 2 [1920/11775 (16%)]	Loss: 2.663431
+Train Epoch: 2 [3840/11775 (33%)]	Loss: 2.643378
+Train Epoch: 2 [5760/11775 (49%)]	Loss: 2.615887
+Train Epoch: 2 [7680/11775 (65%)]	Loss: 2.568315
+Train Epoch: 2 [9600/11775 (82%)]	Loss: 2.521152
+Train Epoch: 2 [11520/11775 (98%)]	Loss: 2.461139
+
+Train Epoch: 3 [1920/11775 (16%)]	Loss: 2.402199
+Train Epoch: 3 [3840/11775 (33%)]	Loss: 2.335829
+Train Epoch: 3 [5760/11775 (49%)]	Loss: 2.274446
+Train Epoch: 3 [7680/11775 (65%)]	Loss: 2.216339
+Train Epoch: 3 [9600/11775 (82%)]	Loss: 2.175072
+Train Epoch: 3 [11520/11775 (98%)]	Loss: 2.112957
+
+Train Epoch: 4 [1920/11775 (16%)]	Loss: 2.041411
+Train Epoch: 4 [3840/11775 (33%)]	Loss: 2.011986
+Train Epoch: 4 [5760/11775 (49%)]	Loss: 1.963705
+Train Epoch: 4 [7680/11775 (65%)]	Loss: 1.904173
+Train Epoch: 4 [9600/11775 (82%)]	Loss: 1.872374
+Train Epoch: 4 [11520/11775 (98%)]	Loss: 1.837588
+
+Train Epoch: 5 [1920/11775 (16%)]	Loss: 1.788687
+Train Epoch: 5 [3840/11775 (33%)]	Loss: 1.756781
+Train Epoch: 5 [5760/11775 (49%)]	Loss: 1.723184
+Train Epoch: 5 [7680/11775 (65%)]	Loss: 1.701174
+Train Epoch: 5 [9600/11775 (82%)]	Loss: 1.678359
+Train Epoch: 5 [11520/11775 (98%)]	Loss: 1.647759
+
+Train Epoch: 6 [1920/11775 (16%)]	Loss: 1.615793
+Train Epoch: 6 [3840/11775 (33%)]	Loss: 1.575964
+Train Epoch: 6 [5760/11775 (49%)]	Loss: 1.562506
+Train Epoch: 6 [7680/11775 (65%)]	Loss: 1.538229
+Train Epoch: 6 [9600/11775 (82%)]	Loss: 1.512765
+Train Epoch: 6 [11520/11775 (98%)]	Loss: 1.504637
+
+Train Epoch: 7 [1920/11775 (16%)]	Loss: 1.481582
+Train Epoch: 7 [3840/11775 (33%)]	Loss: 1.454254
+Train Epoch: 7 [5760/11775 (49%)]	Loss: 1.433943
+Train Epoch: 7 [7680/11775 (65%)]	Loss: 1.423630
+Train Epoch: 7 [9600/11775 (82%)]	Loss: 1.396392
+Train Epoch: 7 [11520/11775 (98%)]	Loss: 1.383815
+
+Train Epoch: 8 [1920/11775 (16%)]	Loss: 1.363916
+Train Epoch: 8 [3840/11775 (33%)]	Loss: 1.336746
+Train Epoch: 8 [5760/11775 (49%)]	Loss: 1.328739
+Train Epoch: 8 [7680/11775 (65%)]	Loss: 1.333651
+Train Epoch: 8 [9600/11775 (82%)]	Loss: 1.298130
+Train Epoch: 8 [11520/11775 (98%)]	Loss: 1.301217
+
+Train Epoch: 9 [1920/11775 (16%)]	Loss: 1.267491
+Train Epoch: 9 [3840/11775 (33%)]	Loss: 1.264102
+Train Epoch: 9 [5760/11775 (49%)]	Loss: 1.246733
+Train Epoch: 9 [7680/11775 (65%)]	Loss: 1.233115
+Train Epoch: 9 [9600/11775 (82%)]	Loss: 1.233521
+Train Epoch: 9 [11520/11775 (98%)]	Loss: 1.211240
+
+/home/raccooncoder/.venv/pytorch/lib/python3.7/site-packages/ipykernel_launcher.py:38: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+
+Test set: Average loss: 0.7621, Average CER: 0.229501 Average WER: 0.2713
+
+Train Epoch: 10 [1920/11775 (16%)]	Loss: 1.205166
+Train Epoch: 10 [3840/11775 (33%)]	Loss: 1.184304
+Train Epoch: 10 [5760/11775 (49%)]	Loss: 1.173644
+Train Epoch: 10 [7680/11775 (65%)]	Loss: 1.156330
+Train Epoch: 10 [9600/11775 (82%)]	Loss: 1.166962
+Train Epoch: 10 [11520/11775 (98%)]	Loss: 1.152471
+
+Train Epoch: 11 [1920/11775 (16%)]	Loss: 1.122833
+Train Epoch: 11 [3840/11775 (33%)]	Loss: 1.124668
+Train Epoch: 11 [5760/11775 (49%)]	Loss: 1.121077
+Train Epoch: 11 [7680/11775 (65%)]	Loss: 1.119287
+Train Epoch: 11 [9600/11775 (82%)]	Loss: 1.108652
+Train Epoch: 11 [11520/11775 (98%)]	Loss: 1.092495
+
+Train Epoch: 12 [1920/11775 (16%)]	Loss: 1.082600
+Train Epoch: 12 [3840/11775 (33%)]	Loss: 1.071570
+Train Epoch: 12 [5760/11775 (49%)]	Loss: 1.070340
+Train Epoch: 12 [7680/11775 (65%)]	Loss: 1.080936
+Train Epoch: 12 [9600/11775 (82%)]	Loss: 1.050287
+Train Epoch: 12 [11520/11775 (98%)]	Loss: 1.047013
+
+Train Epoch: 13 [1920/11775 (16%)]	Loss: 1.039721
+Train Epoch: 13 [3840/11775 (33%)]	Loss: 1.031878
+Train Epoch: 13 [5760/11775 (49%)]	Loss: 1.015954
+

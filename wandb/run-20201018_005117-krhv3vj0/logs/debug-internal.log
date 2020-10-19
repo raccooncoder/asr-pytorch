@@ -1,0 +1,1434 @@
+2020-10-18 00:51:17,674 INFO    MainThread:12273 [internal.py:wandb_internal():62] W&B internal server running at pid: 12273
+2020-10-18 00:51:17,676 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: check_version
+2020-10-18 00:51:17,676 INFO    WriterThread:12273 [datastore.py:open_for_write():76] open: wandb/run-20201018_005117-krhv3vj0/run-krhv3vj0.wandb
+2020-10-18 00:51:17,677 DEBUG   SenderThread:12273 [sender.py:send():88] send: header
+2020-10-18 00:51:17,677 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:51:17,677 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: check_version
+2020-10-18 00:51:17,683 DEBUG   Thread-4  :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): pypi.org:443
+2020-10-18 00:51:17,784 DEBUG   Thread-4  :12273 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 50840
+2020-10-18 00:51:17,842 DEBUG   SenderThread:12273 [sender.py:send():88] send: run
+2020-10-18 00:51:17,845 DEBUG   SenderThread:12273 [git.py:repo():30] git repository is invalid
+2020-10-18 00:51:17,849 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:51:18,132 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:51:18,136 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: run_start
+2020-10-18 00:51:18,137 INFO    SenderThread:12273 [dir_watcher.py:__init__():167] watching files in: wandb/run-20201018_005117-krhv3vj0/files
+2020-10-18 00:51:18,137 INFO    SenderThread:12273 [sender.py:_start_run_threads():469] run started: krhv3vj0 with start time 1602971477
+2020-10-18 00:51:18,137 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:51:18,137 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:51:18,146 DEBUG   HandlerThread:12273 [git.py:repo():30] git repository is invalid
+2020-10-18 00:51:18,193 DEBUG   SenderThread:12273 [sender.py:send():88] send: files
+2020-10-18 00:51:18,193 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-metadata.json with policy now
+2020-10-18 00:51:18,196 DEBUG   Thread-11 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:51:18,200 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:51:18,200 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:51:18,200 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:51:18,203 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:51:18,233 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:18,233 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:18,328 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:18,328 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:18,328 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:18,328 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:18,354 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:18,354 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:18,444 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:51:18,445 DEBUG   Thread-11 :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:51:18,446 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:18,447 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:18,452 DEBUG   Thread-11 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-18 00:51:18,559 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:18,559 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:18,594 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:18,594 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:18,594 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:18,594 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:18,633 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:18,633 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:18,634 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:18,634 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:18,656 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:18,656 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:18,656 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:18,657 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:18,658 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:18,846 DEBUG   Thread-11 :12273 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/raccooncoder/asr-dlaudio/krhv3vj0/wandb-metadata.json?Expires=1603057878&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=fXtGiCWO3rdEOUxU4M6atSdWQ2ZZAraDxZUrdIyngG35dEYFnJedYcoCIf8Xcl2kR39BjSWI96jDSIBkCoiBRmbfC1cHp6I81P%2FvN4gY9tSVvOAslVr4EZ%2BXr8lhiO0Sb2yWmzpuBqpdbC2QGesd7n%2FE%2FZCVRDjDENiLTpo7Q3sSMh9THRBo1B1GGpv3KDeedCjtgbuPJBxTwco2ppoQmHZ0r1pPQdJGLPE%2BFFbgwJ1nbetUzykPEHR8%2BUzJv0A%2BlCYlajFJCjtwcwb08Rur01NQFZf3nq1nzpMkjcfdyTtMA%2BW5xcXP%2BWyV6131ewKR36PVrbo2RKdFzVN7D58WsQ%3D%3D HTTP/1.1" 200 0
+2020-10-18 00:51:18,848 INFO    Thread-11 :12273 [upload_job.py:push():112] Uploaded file /tmp/tmpkx17kiwhwandb/2l0ug5g6-wandb-metadata.json
+2020-10-18 00:51:18,946 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:18,946 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:18,997 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:18,997 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:18,997 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:19,138 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_created():215] file/dir created: wandb/run-20201018_005117-krhv3vj0/files/wandb-metadata.json
+2020-10-18 00:51:19,138 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_created():215] file/dir created: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:51:19,139 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_created():215] file/dir created: wandb/run-20201018_005117-krhv3vj0/files/requirements.txt
+2020-10-18 00:51:19,139 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_created():215] file/dir created: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:51:20,820 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:20,821 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:20,849 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:20,850 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:20,850 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:20,850 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:20,882 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:20,882 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:20,885 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:20,885 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:20,913 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:20,913 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:20,913 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:20,917 DEBUG   Thread-5  :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:51:20,917 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:20,917 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:20,952 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:20,952 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:20,952 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:20,953 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 00:51:20,953 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 00:51:20,989 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: resume
+2020-10-18 00:51:20,990 INFO    HandlerThread:12273 [handler.py:handle_request_resume():217] starting system metrics thread
+2020-10-18 00:51:20,990 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:20,991 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:20,991 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:21,138 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:51:21,192 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:23,401 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:24,540 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:26,746 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:29,077 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:29,279 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:33,474 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:51:33,474 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:51:33,474 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:51:33,478 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:51:33,702 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:51:33,704 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:33,903 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:38,178 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:38,402 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:41,284 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:51:41,284 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:51:41,285 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:51:41,493 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:42,145 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:51:42,145 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:51:42,715 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:44,929 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:47,270 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:47,538 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:48,706 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:51:48,706 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:51:48,706 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:51:48,708 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:51:48,936 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:51:51,828 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:52,054 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:56,378 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:51:56,589 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:51:59,340 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:51:59,340 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:51:59,341 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:51:59,532 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:52:00,152 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:52:00,152 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:52:00,887 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:03,098 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:52:03,938 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:52:03,939 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:52:03,939 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:52:03,942 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:52:04,170 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:52:05,435 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:05,654 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:52:09,952 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:10,491 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:52:14,480 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:14,726 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:52:17,852 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:52:17,852 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:52:17,855 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:52:18,157 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:52:18,158 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:52:19,008 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:19,173 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:52:19,173 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:52:19,173 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:52:19,177 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:52:19,415 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:52:20,158 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:52:23,657 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:28,230 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:28,444 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:52:32,762 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:34,425 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:52:34,425 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:52:34,425 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:52:34,428 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:52:34,660 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:52:37,279 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:40,048 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:52:40,049 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:52:40,050 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:52:40,165 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:52:40,165 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:52:40,248 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:52:41,864 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:46,421 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:49,664 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:52:49,664 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:52:49,664 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:52:49,668 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:52:49,894 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:52:50,986 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:51,189 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:52:55,506 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:52:58,662 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:52:58,662 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:52:58,663 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:52:59,174 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:52:59,174 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:53:00,073 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:04,609 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:04,840 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:53:04,897 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:53:04,897 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:53:04,897 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:53:04,900 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:53:05,144 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:53:09,134 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:13,654 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:17,539 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:53:17,539 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:53:17,539 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:53:17,748 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:53:18,179 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:53:18,179 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:53:18,211 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:19,180 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:53:20,149 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:53:20,149 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:53:20,149 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:53:20,153 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:53:20,379 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:53:22,902 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:27,512 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:32,054 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:32,267 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:53:35,384 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:53:35,384 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:53:35,384 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:53:35,387 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:53:35,619 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:53:36,633 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:39,033 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:53:39,033 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:53:39,033 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:53:39,187 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:53:39,187 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:53:41,236 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:45,825 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:46,027 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:53:50,357 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:50,623 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:53:50,624 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:53:50,624 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:53:50,628 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:53:50,845 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:53:54,914 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:53:57,264 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:53:57,264 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:53:57,264 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:53:57,481 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:53:58,193 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:53:58,194 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:53:59,473 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:04,028 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:05,849 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:54:05,849 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:54:05,849 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:54:05,854 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:54:06,078 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:54:08,570 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:08,771 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:54:13,094 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:15,090 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:54:15,090 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:54:15,090 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:54:15,199 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:54:15,199 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:54:17,200 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:54:17,664 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:21,083 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:54:21,085 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:54:21,085 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:54:21,089 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:54:21,325 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:54:22,399 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:22,635 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:54:27,053 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:31,582 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:36,144 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:36,330 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:54:36,330 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:54:36,330 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:54:36,335 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:54:36,348 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:54:36,582 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:54:36,726 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:54:36,726 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:54:36,727 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:54:37,207 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:54:37,208 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:54:40,688 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:45,284 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:49,876 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:50,097 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:54:51,585 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:54:51,586 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:54:51,586 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:54:51,589 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:54:51,897 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:54:54,227 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:54:54,228 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:54:54,228 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:54:54,468 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:54:55,213 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:54:55,213 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:54:59,067 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:03,650 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:03,854 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:55:06,899 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:55:06,899 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:55:06,899 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:55:06,901 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:55:07,130 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:55:08,205 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:12,228 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:55:12,228 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:55:12,228 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:55:12,732 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:13,219 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:55:13,219 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:55:14,219 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:55:17,390 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:17,653 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:55:22,050 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:22,134 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:55:22,134 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:55:22,134 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:55:22,138 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:55:22,372 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:55:26,586 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:31,163 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:31,383 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:55:33,862 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:55:33,862 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:55:33,862 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:55:34,227 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:55:34,227 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:55:35,760 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:37,375 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:55:37,376 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:55:37,383 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:55:37,386 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:55:37,612 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:55:40,377 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:44,968 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:45,175 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:55:49,565 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:50,820 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:55:50,820 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:55:50,820 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:55:51,233 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:55:51,233 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:55:52,614 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:55:52,614 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:55:52,615 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:55:52,619 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:55:52,947 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:55:54,151 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:58,720 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:55:58,936 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:56:03,231 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:07,710 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:56:07,711 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:56:07,711 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:56:07,750 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:07,951 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:56:07,951 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:56:07,951 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:56:07,953 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:56:08,193 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:56:08,238 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:56:08,238 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:56:09,115 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:56:09,238 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:56:12,301 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:16,815 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:21,311 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:23,202 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:56:23,202 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:56:23,202 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:56:23,206 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:56:23,431 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:56:25,791 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:30,273 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:34,763 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:38,475 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:56:38,475 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:56:38,475 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:56:38,477 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:56:38,703 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:56:39,273 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:39,488 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:56:43,747 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:48,217 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:52,730 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:56:53,721 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:56:53,721 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:56:53,721 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:56:53,725 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:56:53,975 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:56:57,208 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:01,708 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:06,198 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:08,977 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:57:08,977 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:57:08,978 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:57:08,981 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:57:09,229 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:57:10,686 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:10,918 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:57:15,176 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:19,661 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:24,134 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:24,252 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:57:24,252 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:57:24,252 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:57:24,254 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:57:24,478 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:57:28,610 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:33,087 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:37,592 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:39,511 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:57:39,511 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:57:39,518 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:57:39,520 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:57:39,822 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:57:42,095 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:42,302 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:57:46,573 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:51,055 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:57:54,840 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:57:54,840 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:57:54,840 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:57:54,843 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:57:55,072 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:57:55,543 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:00,015 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:04,499 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:09,014 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:10,075 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:58:10,075 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:58:10,075 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:58:10,077 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:58:10,297 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:58:13,485 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:13,714 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:58:17,971 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:22,454 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:22,885 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:58:22,886 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:58:22,886 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:58:23,275 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:58:23,276 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:58:25,300 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:58:25,300 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:58:25,300 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:58:25,304 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:58:25,528 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:58:27,089 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:31,713 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:36,261 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:40,532 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:58:40,533 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:58:40,533 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:58:40,538 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:58:40,784 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:58:40,788 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:43,303 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:58:43,303 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:58:43,304 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:58:44,284 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:58:44,284 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:58:45,326 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:45,529 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:58:49,850 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:54,384 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:58:55,787 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:58:55,788 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:58:55,788 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:58:55,792 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:58:56,015 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:58:58,994 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:00,098 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:59:00,099 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:59:00,099 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:59:00,289 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:59:00,290 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:59:03,543 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:08,068 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:11,018 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:59:11,018 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:59:11,018 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:59:11,020 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:59:11,243 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:59:12,620 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:16,748 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:59:16,748 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:59:16,748 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:59:16,948 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:59:17,183 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:17,294 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:59:17,294 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:59:18,296 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:59:21,848 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:26,247 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:59:26,247 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:59:26,247 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:59:26,251 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:59:26,478 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:59:26,480 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:31,040 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:35,593 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:38,760 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:59:38,760 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:59:38,761 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:59:39,303 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:59:39,304 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:59:40,174 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:41,482 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:59:41,482 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:59:41,482 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:59:41,486 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:59:41,729 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:59:44,767 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:49,348 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:49,557 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 00:59:53,926 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 00:59:55,727 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 00:59:55,727 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 00:59:55,728 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 00:59:56,309 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 00:59:56,309 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 00:59:56,733 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 00:59:56,733 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 00:59:56,733 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 00:59:56,737 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 00:59:57,069 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 00:59:58,435 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:02,990 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:07,518 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:12,010 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:12,073 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:00:12,073 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:00:12,073 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:00:12,075 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:00:12,299 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:00:14,588 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:00:14,589 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:00:14,589 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:00:15,315 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:00:15,315 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:00:16,315 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:00:16,615 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:21,278 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:21,556 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:00:25,821 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:27,303 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:00:27,303 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:00:27,303 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:00:27,307 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:00:27,529 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:00:30,392 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:34,927 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:37,485 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:00:37,485 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:00:37,485 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:00:38,324 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:00:38,324 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:00:39,512 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:42,532 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:00:42,532 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:00:42,532 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:00:42,537 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:00:42,776 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:00:44,109 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:48,658 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:53,195 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:53,400 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:00:55,911 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:00:55,911 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:00:55,912 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:00:56,330 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:00:56,330 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:00:57,754 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:00:57,783 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:00:57,783 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:00:57,783 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:00:57,788 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:00:58,042 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:01:02,307 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:06,863 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:11,376 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:13,045 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:01:13,045 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:01:13,045 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:01:13,047 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:01:13,283 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:01:14,730 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:01:14,731 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:01:14,731 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:01:15,336 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:01:15,337 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:01:15,894 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:16,337 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:01:20,647 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:25,261 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:25,483 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:01:28,288 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:01:28,288 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:01:28,288 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:01:28,292 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:01:28,524 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:01:29,839 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:34,402 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:37,875 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:01:37,876 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:01:37,876 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:01:38,349 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:01:38,350 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:01:38,925 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:43,520 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:43,527 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:01:43,527 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:01:43,527 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:01:43,531 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:01:43,753 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:01:48,073 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:52,630 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:55,483 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:01:55,483 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:01:55,483 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:01:55,696 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:01:56,355 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:01:56,356 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:01:57,171 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:01:58,756 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:01:58,756 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:01:58,756 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:01:58,760 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:01:59,005 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:02:01,724 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:06,278 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:10,836 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:13,158 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:02:13,158 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:02:13,159 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:02:13,360 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:02:13,361 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:02:14,011 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:02:14,011 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:02:14,011 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:02:14,013 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:02:14,263 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:02:15,363 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:02:15,496 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:20,209 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:24,805 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:29,266 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:02:29,266 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:02:29,266 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:02:29,270 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:02:29,533 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:02:29,535 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:29,763 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:02:33,929 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:34,535 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:02:34,535 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:02:34,536 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:02:35,371 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:02:35,371 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:02:38,501 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:43,010 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:44,536 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:02:44,537 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:02:44,537 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:02:44,540 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:02:44,757 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:02:47,579 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:51,804 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:02:51,805 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:02:51,805 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:02:52,162 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:52,376 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:02:52,376 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:02:56,735 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:02:59,762 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:02:59,762 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:02:59,762 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:02:59,767 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:03:00,041 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:03:01,264 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:01,488 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:03:05,801 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:09,278 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:03:09,279 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:03:09,279 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:03:09,381 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:03:09,381 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:03:10,348 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:11,382 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:03:14,890 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:15,044 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:03:15,044 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:03:15,044 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:03:15,047 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:03:15,272 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:03:19,373 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:23,855 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:28,349 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:30,295 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:03:30,296 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:03:30,296 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:03:30,299 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:03:30,541 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:03:32,836 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:33,040 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:03:37,311 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:41,791 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:45,579 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:03:45,579 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:03:45,579 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:03:45,582 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:03:45,921 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:03:46,264 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:50,749 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:55,229 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:03:59,702 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:00,959 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:04:00,959 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:04:00,960 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:04:00,962 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:04:01,189 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:04:04,186 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:04,398 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:04:08,658 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:13,140 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:16,227 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:04:16,228 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:04:16,228 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:04:16,232 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:04:16,450 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:04:17,621 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:22,109 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:26,594 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:31,069 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:31,493 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:04:31,493 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:04:31,493 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:04:31,495 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:04:31,729 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:04:35,574 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:35,793 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:04:40,063 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:44,540 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:46,786 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:04:46,786 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:04:46,786 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:04:46,789 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:04:47,011 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:04:49,014 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:53,493 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:04:57,967 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:02,054 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:05:02,054 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:05:02,054 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:05:02,056 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:05:02,281 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:05:02,446 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:06,928 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:07,128 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:05:11,411 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:15,893 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:17,320 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:05:17,320 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:05:17,320 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:05:17,323 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:05:17,555 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:05:20,385 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:24,869 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:29,350 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:32,609 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:05:32,609 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:05:32,609 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:05:32,613 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:05:32,833 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:05:33,825 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:38,312 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:38,525 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:05:42,786 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:47,263 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:47,871 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:05:47,871 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:05:47,872 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:05:47,874 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:05:48,096 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:05:51,739 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:05:56,218 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:00,691 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:03,129 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:06:03,130 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:06:03,130 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:06:03,132 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:06:03,398 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:06:05,169 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:09,648 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:10,057 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:06:14,128 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:18,431 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:06:18,431 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:06:18,431 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:06:18,434 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:06:18,669 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:06:18,671 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:23,080 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:27,552 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:32,039 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:33,702 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:06:33,702 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:06:33,702 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:06:33,705 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:06:33,935 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:06:36,531 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:41,003 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:41,227 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:06:45,487 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:48,974 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:06:48,974 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:06:48,975 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:06:48,976 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:06:49,193 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:06:49,958 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:54,427 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:06:58,905 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:03,381 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:04,231 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:07:04,231 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:07:04,231 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:07:04,233 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:07:04,471 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:07:07,866 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:12,338 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:12,539 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:07:16,831 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:19,499 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:07:19,499 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:07:19,499 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:07:19,501 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:07:19,716 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:07:21,309 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:25,804 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:30,284 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:34,744 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:07:34,744 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:07:34,744 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:07:34,748 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:07:34,970 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:07:34,972 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:39,256 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:43,736 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:44,026 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:07:48,218 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:50,003 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:07:50,003 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:07:50,003 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:07:50,005 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:07:50,506 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:07:52,699 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:07:57,171 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:01,643 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:05,534 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:08:05,534 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:08:05,534 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:08:05,536 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:08:05,754 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:08:06,132 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:10,625 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:15,096 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:15,359 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:08:19,562 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:20,802 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:08:20,802 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:08:20,802 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:08:20,804 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:08:21,057 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:08:24,039 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:28,531 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:33,007 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:36,111 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:08:36,111 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:08:36,111 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:08:36,115 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:08:36,358 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:08:37,486 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:41,968 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:46,447 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:46,647 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:08:50,928 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:51,402 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:08:51,402 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:08:51,402 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:08:51,404 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:08:51,631 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:08:55,401 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:08:59,907 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:04,390 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:06,664 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:09:06,664 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:09:06,664 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:09:06,668 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:09:06,888 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:09:08,870 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:13,353 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:17,835 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:18,043 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:09:21,932 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:09:21,932 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:09:21,932 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:09:21,934 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:09:22,240 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:09:22,306 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:26,779 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:31,257 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:35,728 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:37,268 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:09:37,268 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:09:37,268 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:09:37,270 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:09:37,492 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:09:40,196 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:44,675 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:49,145 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:49,361 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:09:52,509 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:09:52,509 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:09:52,509 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:09:52,511 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:09:52,744 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:09:53,619 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:09:58,104 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:02,588 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:07,074 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:07,782 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:10:07,782 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:10:07,782 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:10:07,784 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:10:08,009 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:10:11,589 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:16,063 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:20,541 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:20,752 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:10:23,062 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:10:23,062 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:10:23,062 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:10:23,064 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:10:23,308 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:10:25,035 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:29,511 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:33,984 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:38,356 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:10:38,356 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:10:38,356 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:10:38,358 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:10:38,577 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:10:38,579 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:42,936 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:47,408 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:51,875 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:10:52,084 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:10:53,631 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:10:53,631 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:10:53,631 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:10:53,634 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:10:53,856 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:10:56,374 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:00,850 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:05,330 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:08,894 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:11:08,894 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:11:08,894 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:11:08,896 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:11:09,118 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:11:09,810 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:14,280 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:18,773 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:23,249 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:23,487 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:11:24,167 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:11:24,167 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:11:24,167 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:11:24,171 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:11:24,396 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:11:26,563 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:11:26,564 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:11:26,564 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:11:27,516 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:11:27,517 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:11:27,787 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:32,417 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:36,956 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:39,424 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:11:39,425 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:11:39,425 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:11:39,428 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:11:39,662 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:11:41,522 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:46,098 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:47,433 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:11:47,433 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:11:47,434 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:11:47,525 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:11:47,525 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:11:50,668 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:54,666 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:11:54,666 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:11:54,666 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:11:54,669 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:11:54,920 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:11:55,228 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:11:55,447 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:11:59,785 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:04,325 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:05,326 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:12:05,327 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:12:05,327 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:12:05,532 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:12:05,533 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:12:08,906 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:09,924 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:12:09,924 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:12:09,924 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:12:09,928 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:12:10,163 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:12:13,471 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:18,012 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:22,590 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:23,227 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:12:23,227 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:12:23,227 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:12:23,539 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:12:23,539 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:12:24,539 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:12:25,166 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:12:25,167 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:12:25,167 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:12:25,171 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:12:25,414 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:12:27,164 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:27,376 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:12:31,817 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:36,336 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:40,419 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:12:40,419 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:12:40,419 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:12:40,423 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:12:40,739 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:12:40,828 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:44,110 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:12:44,111 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:12:44,111 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:12:44,546 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:12:44,547 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:12:45,383 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:49,931 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:54,488 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:55,742 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:12:55,743 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:12:55,743 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:12:55,746 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:12:55,974 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:12:59,036 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:12:59,246 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:13:01,499 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:13:01,499 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:13:01,500 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:13:01,552 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:13:01,552 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:13:03,597 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:08,125 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:10,977 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:13:10,978 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:13:10,978 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:13:10,980 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:13:11,209 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:13:12,696 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:17,211 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:18,816 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:13:18,817 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:13:18,817 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:13:19,557 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:13:19,557 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:13:20,558 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:13:21,822 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:26,212 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:13:26,213 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:13:26,213 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:13:26,217 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:13:26,448 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:13:26,478 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:30,992 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:31,222 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:13:35,531 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:39,995 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:13:39,995 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:13:39,995 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:13:40,073 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:40,564 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:13:40,565 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:13:41,465 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:13:41,466 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:13:41,466 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:13:41,470 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:13:41,733 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:13:44,608 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:49,188 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:53,777 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:13:56,737 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:13:56,737 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:13:56,737 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:13:56,740 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:13:56,970 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:13:56,972 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:13:56,973 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:13:56,974 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:13:57,570 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:13:57,570 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:13:58,320 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:02,851 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:03,059 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:14:07,378 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:11,930 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:11,973 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:14:11,974 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:14:11,974 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:14:11,977 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:14:12,208 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:14:13,813 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:14:13,813 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:14:13,813 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:14:14,575 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:14:14,575 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:14:15,576 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:14:16,493 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:21,165 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:25,734 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:27,211 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:14:27,212 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:14:27,212 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:14:27,216 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:14:27,790 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:14:30,261 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:34,824 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:34,866 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:14:34,866 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:14:34,867 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:14:35,043 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:14:35,583 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:14:35,584 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:14:39,376 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:42,793 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:14:42,794 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:14:42,801 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:14:42,806 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:14:43,044 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:14:43,916 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:48,464 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:51,701 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:14:51,702 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:14:51,702 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:14:52,589 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:14:52,589 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:14:53,047 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:57,635 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:14:58,047 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:14:58,048 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:14:58,048 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:14:58,050 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:14:58,278 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:15:02,240 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:06,818 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:07,019 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:15:08,612 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:15:08,612 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:15:08,612 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:15:09,594 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:15:09,594 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:15:10,594 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:15:11,433 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:13,282 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:15:13,283 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:15:13,283 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:15:13,287 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:15:13,508 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:15:16,184 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:20,724 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:25,265 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:28,513 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:15:28,513 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:15:28,513 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:15:28,517 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:15:28,737 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:15:29,670 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:15:29,670 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:15:29,671 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:15:29,854 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:30,602 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:15:30,602 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:15:34,455 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:39,029 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:39,253 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:15:43,595 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:43,741 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:15:43,742 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:15:43,742 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:15:43,745 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:15:43,968 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:15:46,664 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:15:46,664 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:15:46,665 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:15:47,607 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:15:47,608 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:15:48,169 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:52,755 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:57,329 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:15:58,974 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:15:58,974 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:15:58,974 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:15:58,977 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:15:59,202 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:16:01,865 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:03,520 DEBUG   SenderThread:12273 [sender.py:send():88] send: history
+2020-10-18 01:16:03,520 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:16:03,520 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:16:03,612 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:16:03,612 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:16:05,613 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:16:06,446 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:10,929 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:11,142 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:16:14,225 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:16:14,225 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:16:14,225 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:16:14,227 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:16:14,472 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:16:15,418 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:19,895 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:24,390 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:28,869 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:29,516 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:16:29,516 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:16:29,516 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:16:29,520 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:16:29,748 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:16:33,348 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:37,840 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:42,346 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:42,552 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:16:44,792 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:16:44,792 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:16:44,792 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:16:44,795 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:16:45,016 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:16:46,827 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:51,309 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:16:55,813 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:00,043 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:17:00,044 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:17:00,044 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:17:00,047 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:17:00,258 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:17:00,289 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:04,770 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:09,254 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:13,731 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:13,960 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:17:15,265 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:17:15,265 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:17:15,265 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:17:15,267 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:17:15,492 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:17:18,207 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:22,677 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:27,161 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:30,545 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:17:30,545 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:17:30,545 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:17:30,548 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:17:30,779 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:17:31,645 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:36,122 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:40,645 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:45,120 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:45,360 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:17:45,838 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:17:45,838 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:17:45,838 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:17:45,842 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:17:46,060 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:17:49,597 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:54,070 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:17:58,548 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:01,108 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:18:01,108 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:18:01,108 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:18:01,110 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:18:01,336 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:18:03,015 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:07,489 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:11,960 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:16,389 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:18:16,389 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:18:16,389 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:18:16,392 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:18:16,620 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:18:16,621 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:16,834 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:18:20,920 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:25,401 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:29,878 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:31,669 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:18:31,669 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:18:31,669 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:18:31,672 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:18:31,901 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:18:34,351 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:38,837 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:43,331 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:46,944 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: status
+2020-10-18 01:18:46,944 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:18:46,944 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: status
+2020-10-18 01:18:46,946 DEBUG   SenderThread:12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:18:47,200 DEBUG   SenderThread:12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:18:47,822 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:18:48,050 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:18:50,289 WARNING MainThread:12273 [internal.py:wandb_internal():116] Internal process interrupt: 1
+2020-10-18 01:18:50,597 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: pause
+2020-10-18 01:18:50,597 INFO    HandlerThread:12273 [handler.py:handle_request_pause():222] stopping system metrics thread
+2020-10-18 01:18:50,658 INFO    Thread-8  :12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:18:50,678 DEBUG   SenderThread:12273 [sender.py:send():88] send: stats
+2020-10-18 01:19:00,413 DEBUG   SenderThread:12273 [sender.py:send():88] send: exit
+2020-10-18 01:19:00,413 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: poll_exit
+2020-10-18 01:19:00,413 INFO    SenderThread:12273 [sender.py:send_exit():156] handling exit code: 0
+2020-10-18 01:19:00,414 INFO    SenderThread:12273 [sender.py:send_exit():164] send defer
+2020-10-18 01:19:00,414 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:00,414 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: poll_exit
+2020-10-18 01:19:00,414 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:00,414 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 0
+2020-10-18 01:19:00,414 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:00,414 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:00,414 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 0
+2020-10-18 01:19:00,414 INFO    SenderThread:12273 [sender.py:send_request_defer():209] send defer: 1
+2020-10-18 01:19:00,415 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:00,415 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 1
+2020-10-18 01:19:00,415 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:00,415 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:00,415 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 1
+2020-10-18 01:19:00,415 INFO    SenderThread:12273 [sender.py:send_request_defer():209] send defer: 2
+2020-10-18 01:19:00,415 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:00,415 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 2
+2020-10-18 01:19:00,415 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:00,415 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:00,415 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 2
+2020-10-18 01:19:00,415 INFO    SenderThread:12273 [sender.py:send_request_defer():209] send defer: 3
+2020-10-18 01:19:00,416 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:00,416 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 3
+2020-10-18 01:19:00,416 DEBUG   SenderThread:12273 [sender.py:send():88] send: summary
+2020-10-18 01:19:00,417 INFO    SenderThread:12273 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-18 01:19:00,417 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:00,417 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:00,417 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 3
+2020-10-18 01:19:00,417 INFO    SenderThread:12273 [sender.py:send_request_defer():209] send defer: 4
+2020-10-18 01:19:00,417 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:00,417 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 4
+2020-10-18 01:19:00,417 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:00,418 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:00,418 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 4
+2020-10-18 01:19:00,418 INFO    SenderThread:12273 [dir_watcher.py:finish():280] shutting down directory watcher
+2020-10-18 01:19:00,659 INFO    SenderThread:12273 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:19:00,660 INFO    SenderThread:12273 [dir_watcher.py:finish():309] scan: wandb/run-20201018_005117-krhv3vj0/files
+2020-10-18 01:19:00,660 INFO    SenderThread:12273 [dir_watcher.py:finish():315] scan save: wandb/run-20201018_005117-krhv3vj0/files/config.yaml config.yaml
+2020-10-18 01:19:00,660 INFO    SenderThread:12273 [dir_watcher.py:finish():315] scan save: wandb/run-20201018_005117-krhv3vj0/files/requirements.txt requirements.txt
+2020-10-18 01:19:00,660 INFO    SenderThread:12273 [dir_watcher.py:finish():315] scan save: wandb/run-20201018_005117-krhv3vj0/files/wandb-metadata.json wandb-metadata.json
+2020-10-18 01:19:00,660 INFO    SenderThread:12273 [dir_watcher.py:finish():315] scan save: wandb/run-20201018_005117-krhv3vj0/files/output.log output.log
+2020-10-18 01:19:00,663 INFO    SenderThread:12273 [dir_watcher.py:finish():315] scan save: wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json wandb-summary.json
+2020-10-18 01:19:00,666 DEBUG   Thread-23 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:19:00,666 DEBUG   Thread-24 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:19:00,672 DEBUG   Thread-25 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:19:00,672 INFO    SenderThread:12273 [sender.py:send_request_defer():209] send defer: 5
+2020-10-18 01:19:00,677 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:00,677 DEBUG   Thread-26 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-18 01:19:00,677 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 5
+2020-10-18 01:19:00,678 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:00,678 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:00,678 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 5
+2020-10-18 01:19:00,678 INFO    SenderThread:12273 [file_pusher.py:finish():169] shutting down file pusher
+2020-10-18 01:19:00,678 INFO    SenderThread:12273 [sender.py:send_request_defer():209] send defer: 6
+2020-10-18 01:19:00,678 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:00,678 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 6
+2020-10-18 01:19:00,678 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:00,678 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:00,679 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 6
+2020-10-18 01:19:00,882 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:19:00,911 DEBUG   Thread-24 :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:19:00,914 DEBUG   Thread-24 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-18 01:19:00,915 DEBUG   Thread-23 :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:19:00,918 DEBUG   Thread-23 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-18 01:19:00,922 DEBUG   Thread-26 :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:19:00,925 DEBUG   Thread-26 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-18 01:19:00,939 DEBUG   Thread-25 :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-18 01:19:00,942 DEBUG   Thread-25 :12273 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-18 01:19:01,072 DEBUG   Thread-5  :12273 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/raccooncoder/asr-dlaudio/krhv3vj0/file_stream HTTP/1.1" 200 None
+2020-10-18 01:19:01,073 INFO    SenderThread:12273 [sender.py:send_request_defer():209] send defer: 7
+2020-10-18 01:19:01,073 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:01,074 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 7
+2020-10-18 01:19:01,074 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:01,074 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:01,074 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 7
+2020-10-18 01:19:01,074 INFO    SenderThread:12273 [sender.py:send_request_defer():209] send defer: 8
+2020-10-18 01:19:01,075 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: defer
+2020-10-18 01:19:01,075 DEBUG   SenderThread:12273 [sender.py:send():88] send: final
+2020-10-18 01:19:01,075 INFO    HandlerThread:12273 [handler.py:handle_request_defer():68] handle defer: 8
+2020-10-18 01:19:01,075 DEBUG   SenderThread:12273 [sender.py:send():88] send: footer
+2020-10-18 01:19:01,075 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:01,075 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: defer
+2020-10-18 01:19:01,075 INFO    SenderThread:12273 [sender.py:send_request_defer():173] handle sender defer: 8
+2020-10-18 01:19:01,335 DEBUG   Thread-24 :12273 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/raccooncoder/asr-dlaudio/krhv3vj0/requirements.txt?Expires=1603059540&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=WsDYMf3zhxKbBhfZTWGE6Ih6Jh59ETvcOfd4iHN3bk4aU%2Bx9GM4XKtZyb3x8khpHYcgiI6c8mg%2F%2F8hK2vNCl0eFfZQmSWAHW9WxhsYOz1uwrAsp7QZttZS0UJmPgqICEBRBvgrmXeo%2FM4eQuvgZfxal%2BkSaKWYZd%2F0ZxLk0P0WYzB8WTZc8KvPbNGxICCjT%2Bh3vdgm6lq3w806T1x2WkzMVlTOTaqunvqXabsrJoya04Rud%2FpMzY%2B873LO5hSSb3C739m4TJgWPbSvTyyswhJqzdtgfasSav7DJotJH7GzSlEo47W8Sgu5fgPAK%2FZc7%2BkqlDA5Atr20OUdTBZ3KPHQ%3D%3D HTTP/1.1" 200 0
+2020-10-18 01:19:01,335 DEBUG   Thread-23 :12273 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/raccooncoder/asr-dlaudio/krhv3vj0/config.yaml?Expires=1603059540&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=mGxjcPItfNOl4T5XWV1iDyvyyav5nmflpB%2F8EOEKDPLEh9hA62s9z0NK8tL02Ndr6YeE85irA2CWUJ1KbKzpXUaYuNmUZZwOO%2FAlP91i8wZm6mOJBqRnpWvFjbsMw%2FHGUotNCHSZeXI2TqUVs8v%2F065dJSDCedBi8SvPgLMB8YhjKIr82K%2FBIE6NySQZ29sf500R%2BDrciAnh9fMJZEZ3eY6RSlquuLVBvzQgpv4Mp4FV%2FLyi3F4xcUijm2ct%2F1%2BTJBhd1uYKuf0TWPxOH8tr6Muse6lXYnpQBWKhaXbBRqGq7L7ICfyE0Qd%2F2%2BsuJghFzEkIGVAUskajOuTBDpL%2FAQ%3D%3D HTTP/1.1" 200 0
+2020-10-18 01:19:01,337 INFO    Thread-24 :12273 [upload_job.py:push():112] Uploaded file wandb/run-20201018_005117-krhv3vj0/files/requirements.txt
+2020-10-18 01:19:01,338 INFO    Thread-23 :12273 [upload_job.py:push():112] Uploaded file wandb/run-20201018_005117-krhv3vj0/files/config.yaml
+2020-10-18 01:19:01,340 DEBUG   Thread-25 :12273 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/raccooncoder/asr-dlaudio/krhv3vj0/output.log?Expires=1603059540&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=DqUvfIVgwc3oqrkGi324MoVM6RjEV3tMXY9zayfzovi1W4FckcqhRWxVkQ0VlomGncsVLn%2BNDbZZ%2F6PqBnXhD2vb2bOQyBtg9leTMw%2BZcGgd%2BBoCm8c%2BK09LHdHvn77tSZEhLXLddRxAtwqY3sZNpD7WcZD9X6wlQ%2BdtXI1wmUwbsyJ%2FmUieZbrU5XDqwjF6e4wbQuRaOUV0dmTRWpkmMhB0e7mgsw0JzXAyY8bkQ8bJuuMDDyKoSxLfbGNysPfgoQVEvEjOBsTUvVFGKaxmZT99mGlmWMrwmWBJyN0tXZdYuHIC5E6X3GQUusUQOXnnL%2B%2FmfzYvdczwP1V28RAAcw%3D%3D HTTP/1.1" 200 0
+2020-10-18 01:19:01,342 INFO    Thread-25 :12273 [upload_job.py:push():112] Uploaded file wandb/run-20201018_005117-krhv3vj0/files/output.log
+2020-10-18 01:19:01,379 DEBUG   Thread-26 :12273 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/raccooncoder/asr-dlaudio/krhv3vj0/wandb-summary.json?Expires=1603059540&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=nnSMAZPn9%2B52dyYuzGTmo0fiDn7m%2BvmpF6eutpAUL%2BSlff3blhJj1%2BlPh%2Bx6VRtr3%2F5XnWZK9suhzqVSziC6mAzYcrgYHfWBKqtZN6PL6yAtMCqCNaUsoWbYqi4Dd2QAQkp2Ae0eIZmryj%2Fo6lL%2FXe8b5tg6ne7jZt6hgc1YM1ohCyABvCn4a0sreEc%2FrrlkgHCZ1tqoOxc8LBj07sey7R%2BlLeSzhSMhAD63DV%2BXHTvAjZ6IFqMp9sp%2B6Z20ecKo7LKtUmaYMUrYiy2G4OHTQvOnJAibnUqFrrNcJJMAJIRIIClMCGEP4pr4dy8hKbzdh21vfZybaYZQmqd1ud%2BfIg%3D%3D HTTP/1.1" 200 0
+2020-10-18 01:19:01,380 INFO    Thread-26 :12273 [upload_job.py:push():112] Uploaded file wandb/run-20201018_005117-krhv3vj0/files/wandb-summary.json
+2020-10-18 01:19:02,421 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: poll_exit
+2020-10-18 01:19:02,421 DEBUG   SenderThread:12273 [sender.py:send():88] send: request
+2020-10-18 01:19:02,421 DEBUG   SenderThread:12273 [sender.py:send_request():97] send_request: poll_exit
+2020-10-18 01:19:02,422 INFO    SenderThread:12273 [file_pusher.py:join():174] waiting for file pusher
+2020-10-18 01:19:02,424 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: get_summary
+2020-10-18 01:19:02,425 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: sampled_history
+2020-10-18 01:19:02,426 DEBUG   HandlerThread:12273 [handler.py:handle_request():54] handle_request: shutdown
+2020-10-18 01:19:02,426 INFO    HandlerThread:12273 [handler.py:finish():267] shutting down handler
+2020-10-18 01:19:03,075 INFO    WriterThread:12273 [datastore.py:close():257] close: wandb/run-20201018_005117-krhv3vj0/run-krhv3vj0.wandb
+2020-10-18 01:19:03,422 INFO    SenderThread:12273 [sender.py:finish():588] shutting down sender
+2020-10-18 01:19:03,422 INFO    SenderThread:12273 [file_pusher.py:finish():169] shutting down file pusher
+2020-10-18 01:19:03,422 INFO    SenderThread:12273 [file_pusher.py:join():174] waiting for file pusher
+2020-10-18 01:19:03,423 INFO    MainThread:12273 [internal.py:handle_exit():137] Internal process exited
