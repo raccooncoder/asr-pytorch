@@ -1,0 +1,5 @@
+cuda:0
+/home/raccooncoder/.venv/pytorch/lib/python3.7/site-packages/ipykernel_launcher.py:6: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  
+

@@ -1,0 +1,271 @@
+cuda:0
+/home/raccooncoder/.venv/pytorch/lib/python3.7/site-packages/ipykernel_launcher.py:6: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+  
+Train Epoch: 0 [3840/11775 (33%)]	Loss: 7.445711
+Train Epoch: 0 [7680/11775 (65%)]	Loss: 2.932944
+Train Epoch: 0 [11520/11775 (98%)]	Loss: 2.756221
+
+Train Epoch: 1 [3840/11775 (33%)]	Loss: 2.727742
+Train Epoch: 1 [7680/11775 (65%)]	Loss: 2.712999
+Train Epoch: 1 [11520/11775 (98%)]	Loss: 2.682869
+
+Train Epoch: 2 [3840/11775 (33%)]	Loss: 2.625163
+Train Epoch: 2 [7680/11775 (65%)]	Loss: 2.551934
+Train Epoch: 2 [11520/11775 (98%)]	Loss: 2.430456
+
+Train Epoch: 3 [3840/11775 (33%)]	Loss: 2.296389
+Train Epoch: 3 [7680/11775 (65%)]	Loss: 2.166064
+Train Epoch: 3 [11520/11775 (98%)]	Loss: 2.021703
+
+Train Epoch: 4 [3840/11775 (33%)]	Loss: 1.874672
+Train Epoch: 4 [7680/11775 (65%)]	Loss: 1.727832
+Train Epoch: 4 [11520/11775 (98%)]	Loss: 1.594235
+
+Train Epoch: 5 [3840/11775 (33%)]	Loss: 1.453785
+Train Epoch: 5 [7680/11775 (65%)]	Loss: 1.360000
+Train Epoch: 5 [11520/11775 (98%)]	Loss: 1.268787
+
+Train Epoch: 6 [3840/11775 (33%)]	Loss: 1.184667
+Train Epoch: 6 [7680/11775 (65%)]	Loss: 1.116677
+Train Epoch: 6 [11520/11775 (98%)]	Loss: 1.069436
+
+Train Epoch: 7 [3840/11775 (33%)]	Loss: 1.008208
+Train Epoch: 7 [7680/11775 (65%)]	Loss: 0.968472
+Train Epoch: 7 [11520/11775 (98%)]	Loss: 0.925936
+
+Train Epoch: 8 [3840/11775 (33%)]	Loss: 0.876553
+Train Epoch: 8 [7680/11775 (65%)]	Loss: 0.857215
+Train Epoch: 8 [11520/11775 (98%)]	Loss: 0.821331
+
+Train Epoch: 9 [3840/11775 (33%)]	Loss: 0.775696
+Train Epoch: 9 [7680/11775 (65%)]	Loss: 0.768875
+Train Epoch: 9 [11520/11775 (98%)]	Loss: 0.743358
+
+/home/raccooncoder/.venv/pytorch/lib/python3.7/site-packages/ipykernel_launcher.py:38: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+
+Test set: Average loss: 0.7478, Average CER: 0.267726 Average WER: 0.2745
+
+Train Epoch: 10 [3840/11775 (33%)]	Loss: 0.699015
+Train Epoch: 10 [7680/11775 (65%)]	Loss: 0.685715
+Train Epoch: 10 [11520/11775 (98%)]	Loss: 0.670585
+
+Train Epoch: 11 [3840/11775 (33%)]	Loss: 0.639620
+Train Epoch: 11 [7680/11775 (65%)]	Loss: 0.629898
+Train Epoch: 11 [11520/11775 (98%)]	Loss: 0.608685
+
+Train Epoch: 12 [3840/11775 (33%)]	Loss: 0.583817
+Train Epoch: 12 [7680/11775 (65%)]	Loss: 0.572016
+Train Epoch: 12 [11520/11775 (98%)]	Loss: 0.560815
+
+Train Epoch: 13 [3840/11775 (33%)]	Loss: 0.530384
+Train Epoch: 13 [7680/11775 (65%)]	Loss: 0.532501
+Train Epoch: 13 [11520/11775 (98%)]	Loss: 0.516864
+
+Train Epoch: 14 [3840/11775 (33%)]	Loss: 0.488949
+Train Epoch: 14 [7680/11775 (65%)]	Loss: 0.482262
+Train Epoch: 14 [11520/11775 (98%)]	Loss: 0.482361
+
+Train Epoch: 15 [3840/11775 (33%)]	Loss: 0.452179
+Train Epoch: 15 [7680/11775 (65%)]	Loss: 0.449544
+Train Epoch: 15 [11520/11775 (98%)]	Loss: 0.450355
+
+Train Epoch: 16 [3840/11775 (33%)]	Loss: 0.412924
+Train Epoch: 16 [7680/11775 (65%)]	Loss: 0.415310
+Train Epoch: 16 [11520/11775 (98%)]	Loss: 0.412466
+
+Train Epoch: 17 [3840/11775 (33%)]	Loss: 0.387597
+Train Epoch: 17 [7680/11775 (65%)]	Loss: 0.387092
+Train Epoch: 17 [11520/11775 (98%)]	Loss: 0.381185
+
+Train Epoch: 18 [3840/11775 (33%)]	Loss: 0.353844
+Train Epoch: 18 [7680/11775 (65%)]	Loss: 0.358735
+Train Epoch: 18 [11520/11775 (98%)]	Loss: 0.360906
+
+Train Epoch: 19 [3840/11775 (33%)]	Loss: 0.333865
+Train Epoch: 19 [7680/11775 (65%)]	Loss: 0.333624
+Train Epoch: 19 [11520/11775 (98%)]	Loss: 0.331768
+
+
+Test set: Average loss: 0.4156, Average CER: 0.144750 Average WER: 0.1669
+
+Train Epoch: 20 [3840/11775 (33%)]	Loss: 0.309464
+Train Epoch: 20 [7680/11775 (65%)]	Loss: 0.309105
+Train Epoch: 20 [11520/11775 (98%)]	Loss: 0.313049
+
+Train Epoch: 21 [3840/11775 (33%)]	Loss: 0.286215
+Train Epoch: 21 [7680/11775 (65%)]	Loss: 0.281958
+Train Epoch: 21 [11520/11775 (98%)]	Loss: 0.285629
+
+Train Epoch: 22 [3840/11775 (33%)]	Loss: 0.265987
+Train Epoch: 22 [7680/11775 (65%)]	Loss: 0.269253
+Train Epoch: 22 [11520/11775 (98%)]	Loss: 0.268488
+
+Train Epoch: 23 [3840/11775 (33%)]	Loss: 0.251298
+Train Epoch: 23 [7680/11775 (65%)]	Loss: 0.248703
+Train Epoch: 23 [11520/11775 (98%)]	Loss: 0.238296
+
+Train Epoch: 24 [3840/11775 (33%)]	Loss: 0.228769
+Train Epoch: 24 [7680/11775 (65%)]	Loss: 0.223842
+Train Epoch: 24 [11520/11775 (98%)]	Loss: 0.224723
+
+Train Epoch: 25 [3840/11775 (33%)]	Loss: 0.207506
+Train Epoch: 25 [7680/11775 (65%)]	Loss: 0.219323
+Train Epoch: 25 [11520/11775 (98%)]	Loss: 0.212252
+
+Train Epoch: 26 [3840/11775 (33%)]	Loss: 0.193827
+Train Epoch: 26 [7680/11775 (65%)]	Loss: 0.196284
+Train Epoch: 26 [11520/11775 (98%)]	Loss: 0.193651
+
+Train Epoch: 27 [3840/11775 (33%)]	Loss: 0.179069
+Train Epoch: 27 [7680/11775 (65%)]	Loss: 0.179034
+Train Epoch: 27 [11520/11775 (98%)]	Loss: 0.183888
+
+Train Epoch: 28 [3840/11775 (33%)]	Loss: 0.163727
+Train Epoch: 28 [7680/11775 (65%)]	Loss: 0.162251
+Train Epoch: 28 [11520/11775 (98%)]	Loss: 0.167014
+
+Train Epoch: 29 [3840/11775 (33%)]	Loss: 0.146711
+Train Epoch: 29 [7680/11775 (65%)]	Loss: 0.149502
+Train Epoch: 29 [11520/11775 (98%)]	Loss: 0.153818
+
+
+Test set: Average loss: 0.3055, Average CER: 0.110151 Average WER: 0.1285
+
+Train Epoch: 30 [3840/11775 (33%)]	Loss: 0.134615
+Train Epoch: 30 [7680/11775 (65%)]	Loss: 0.131737
+Train Epoch: 30 [11520/11775 (98%)]	Loss: 0.144203
+
+Train Epoch: 31 [3840/11775 (33%)]	Loss: 0.119688
+Train Epoch: 31 [7680/11775 (65%)]	Loss: 0.119963
+Train Epoch: 31 [11520/11775 (98%)]	Loss: 0.130026
+
+Train Epoch: 32 [3840/11775 (33%)]	Loss: 0.101109
+Train Epoch: 32 [7680/11775 (65%)]	Loss: 0.119419
+Train Epoch: 32 [11520/11775 (98%)]	Loss: 0.122316
+
+Train Epoch: 33 [3840/11775 (33%)]	Loss: 0.100581
+Train Epoch: 33 [7680/11775 (65%)]	Loss: 0.103549
+Train Epoch: 33 [11520/11775 (98%)]	Loss: 0.109635
+
+Train Epoch: 34 [3840/11775 (33%)]	Loss: 0.088557
+Train Epoch: 34 [7680/11775 (65%)]	Loss: 0.093245
+Train Epoch: 34 [11520/11775 (98%)]	Loss: 0.096956
+
+Train Epoch: 35 [3840/11775 (33%)]	Loss: 0.079851
+Train Epoch: 35 [7680/11775 (65%)]	Loss: 0.083140
+Train Epoch: 35 [11520/11775 (98%)]	Loss: 0.083949
+
+Train Epoch: 36 [3840/11775 (33%)]	Loss: 0.068505
+Train Epoch: 36 [7680/11775 (65%)]	Loss: 0.073347
+Train Epoch: 36 [11520/11775 (98%)]	Loss: 0.076268
+
+Train Epoch: 37 [3840/11775 (33%)]	Loss: 0.060977
+Train Epoch: 37 [7680/11775 (65%)]	Loss: 0.065534
+Train Epoch: 37 [11520/11775 (98%)]	Loss: 0.066794
+
+Train Epoch: 38 [3840/11775 (33%)]	Loss: 0.044444
+Train Epoch: 38 [7680/11775 (65%)]	Loss: 0.053855
+Train Epoch: 38 [11520/11775 (98%)]	Loss: 0.069053
+
+Train Epoch: 39 [3840/11775 (33%)]	Loss: 0.042563
+Train Epoch: 39 [7680/11775 (65%)]	Loss: 0.044640
+Train Epoch: 39 [11520/11775 (98%)]	Loss: 0.053947
+
+
+Test set: Average loss: 0.2747, Average CER: 0.092512 Average WER: 0.1091
+
+Train Epoch: 40 [3840/11775 (33%)]	Loss: 0.040906
+Train Epoch: 40 [7680/11775 (65%)]	Loss: 0.035917
+Train Epoch: 40 [11520/11775 (98%)]	Loss: 0.048106
+
+Train Epoch: 41 [3840/11775 (33%)]	Loss: 0.024318
+Train Epoch: 41 [7680/11775 (65%)]	Loss: 0.032422
+Train Epoch: 41 [11520/11775 (98%)]	Loss: 0.032717
+
+Train Epoch: 42 [3840/11775 (33%)]	Loss: 0.021385
+Train Epoch: 42 [7680/11775 (65%)]	Loss: 0.018699
+Train Epoch: 42 [11520/11775 (98%)]	Loss: 0.025552
+
+Train Epoch: 43 [3840/11775 (33%)]	Loss: 0.014752
+Train Epoch: 43 [7680/11775 (65%)]	Loss: 0.017547
+Train Epoch: 43 [11520/11775 (98%)]	Loss: 0.018908
+
+Train Epoch: 44 [3840/11775 (33%)]	Loss: 0.009902
+Train Epoch: 44 [7680/11775 (65%)]	Loss: 0.003566
+Train Epoch: 44 [11520/11775 (98%)]	Loss: 0.012103
+
+Train Epoch: 45 [3840/11775 (33%)]	Loss: -0.003814
+Train Epoch: 45 [7680/11775 (65%)]	Loss: 0.002454
+Train Epoch: 45 [11520/11775 (98%)]	Loss: 0.008776
+
+Train Epoch: 46 [3840/11775 (33%)]	Loss: -0.002518
+Train Epoch: 46 [7680/11775 (65%)]	Loss: -0.002969
+Train Epoch: 46 [11520/11775 (98%)]	Loss: 0.002233
+
+Train Epoch: 47 [3840/11775 (33%)]	Loss: -0.016184
+Train Epoch: 47 [7680/11775 (65%)]	Loss: -0.009515
+Train Epoch: 47 [11520/11775 (98%)]	Loss: -0.006620
+
+Train Epoch: 48 [3840/11775 (33%)]	Loss: -0.018083
+Train Epoch: 48 [7680/11775 (65%)]	Loss: -0.018891
+Train Epoch: 48 [11520/11775 (98%)]	Loss: -0.019578
+
+Train Epoch: 49 [3840/11775 (33%)]	Loss: -0.023968
+Train Epoch: 49 [7680/11775 (65%)]	Loss: -0.024337
+Train Epoch: 49 [11520/11775 (98%)]	Loss: -0.018624
+
+
+Test set: Average loss: 0.2759, Average CER: 0.086807 Average WER: 0.1017
+
+Example 0:
+testified that the signature and other writing on the aplication ore that box were in the handwriting of lee harvey oswald
+------------------------------------
+testified that the signature and other writing on the application for that box were in the handwriting of lee harvey oswald
+
+Example 1:
+tisciones first appeared in the devonian and per sy lryin in very ratillian oa rather amfibi and formns
+------------------------------------
+fishes first appeared in the devonian and upper silurian in very reptilian or rather amphibian forms
+
+Example 2:
+to cal in one hundred extra off duty officerse to hup prtect president kennedy
+------------------------------------
+to call in one hundred extra offduty officers to help protect president kennedy
+
+Example 3:
+as time past
+------------------------------------
+as time passed
+
+Example 4:
+in vew oth speaking to id at the tril an he could easily do them a good turn or a very badan
+------------------------------------
+in view of speaking to it at the trial and he could easily do them a good turn  or a very bad one
+
+Example 5:
+conduct of secret service agents in fourt worth on novembeotwentytwo
+------------------------------------
+conduct of secret service agents in fort worth on november twentytwo
+
+Example 6:
+ay prisonr bacxter is in the infirmary in concequence of a sevear injury to his ristjumt
+------------------------------------
+a prisoner baxter is in the infirmary in consequence of a severe injury to his wristjoint
+
+Example 7:
+gave more people en oper tunit y to participate
+------------------------------------
+gave more people an opportunity to participate
+
+Example 8:
+the trip t texis be gan with the departur of president and mrs kennedy from the white house
+------------------------------------
+the trip to texas began with the departure of president and mrs kennedy from the white house
+
+Example 9:
+the latter rased eighteenpence among thon to pay for a truss o straughfor the por wman to ly on
+------------------------------------
+the latter raised eighteen pence among them to pay for a truss of straw for the poor woman to lie on
+
