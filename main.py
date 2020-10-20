@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import json
 
-with open('config.json', 'r') as f:
+with open('configs/config.json', 'r') as f:
     config = json.load(f)
 
 wandb.init(config=config, project="asr-dlaudio")
