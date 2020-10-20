@@ -93,6 +93,6 @@ for idx in range(10):
     print('------------------------------------')
     print(visualise(model, test_dataset, idx2char, idx)[1][0] + '\n')
 
-torch.save(model.state_dict(), 'vanilla_lstm_LJSpeech.pth')
+torch.save(model.state_dict(), 'checkpoints/vanilla_lstm_LJSpeech.pth')
 
-wandb.save('vanilla_lstm_LJSpeech.pth')
+wandb.save('checkpoints/vanilla_lstm_LJSpeech.pth')
