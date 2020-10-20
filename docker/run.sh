@@ -1,0 +1,1 @@
+docker run -v  $(pwd)/:/home/asr-pytorch -it asr_pytorch
